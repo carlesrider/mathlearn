@@ -1,5 +1,11 @@
-import { randomUUID } from 'crypto';
 import { Difficulty, GameMode, Grade, Operation, Question } from '@/types/game';
+
+function createId() {
+  if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') {
+    return crypto.randomUUID();
+  }
+  return `q-${Math.random().toString(16).slice(2)}-${Date.now()}`;
+}
 
 type BuildConfig = {
   operation: Operation;
@@ -84,7 +90,7 @@ export function buildQuestion({
   const correctAnswer = computeAnswer(a, b, operation);
   const text = buildText(a, b, operation);
   const question: Question = {
-    id: randomUUID(),
+    id: createId(),
     text,
     operands: [a, b],
     operation,

@@ -59,7 +59,7 @@ export default function SelectionPage() {
 
         <div className="card p-6 sm:p-8">
           <h2 className="text-xl font-bold text-sky-900">{texts.selection.operationLabel}</h2>
-          <p className="text-sm text-gray-700">Pots escollir més d\'una operació.</p>
+          <p className="text-sm text-gray-700">Pots escollir més d&apos;una operació.</p>
           <div className="mt-4">
             <OperationSelector selected={operations} onToggle={toggleOperation} />
           </div>
@@ -84,7 +84,7 @@ export default function SelectionPage() {
           <div className="flex items-center justify-between">
             <h2 className="text-xl font-bold text-sky-900">{texts.selection.modesTitle}</h2>
             <span className="text-sm text-gray-700">
-              {allowModes ? 'Escull un mode per començar' : 'Completa els passos d\'abans'}
+              {allowModes ? 'Escull un mode per començar' : "Completa els passos d&apos;abans"}
             </span>
           </div>
           <div className="mt-4 grid gap-4 md:grid-cols-2">
@@ -100,7 +100,7 @@ export default function SelectionPage() {
             >
               {texts.actions.start}
             </button>
-            <p className="text-sm text-gray-700">Modes suggerits segons el teu curs i l\'operació triada.</p>
+            <p className="text-sm text-gray-700">Modes suggerits segons el teu curs i l&apos;operació triada.</p>
           </div>
         </div>
       </section>
