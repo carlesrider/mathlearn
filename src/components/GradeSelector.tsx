@@ -16,7 +16,7 @@ export default function GradeSelector({ value, onChange }: Props) {
           key={grade}
           onClick={() => onChange(grade as Grade)}
           className={`card px-4 py-3 text-lg font-bold text-sky-800 transition hover:-translate-y-0.5 hover:shadow-xl ${
-            value === grade ? 'border-2 border-candyPink bg-candyPink/20' : ''
+            value === grade ? 'ring-2 border-candyPink bg-candyPink/20' : ''
           }`}
         >
           {grade}

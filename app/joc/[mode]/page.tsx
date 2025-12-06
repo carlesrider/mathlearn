@@ -78,7 +78,7 @@ function QuestionArea({ question, onAnswer, mode }: { question: Question; onAnsw
             <button
               key={option}
               onClick={() => handleAnswer(option)}
-              className="game-button bg-white text-sky-900 hover:bg-skySplash/40"
+              className="game-button-selector bg-white text-sky-900 hover:bg-skySplash/40"
             >
               {option}
             </button>

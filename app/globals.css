@@ -36,4 +36,16 @@ select:focus {
 
 .game-button {
   @apply px-6 py-3 rounded-2xl text-lg font-bold transition transform hover:-translate-y-0.5 shadow-md;
+  transition: all 0.3s ease;
+}
+.game-button:hover {
+  background: linear-gradient(135deg, #ff2b8e, #30bafe);
+}
+
+.game-button-selector {
+  @apply px-6 py-10 rounded-2xl text-5xl font-bold transition transform hover:-translate-y-0.5 shadow-md;
+  transition: all 0.3s ease;
+}
+.game-button:hover {
+  background: linear-gradient(135deg, #ff2b8e, #30bafe);
 }

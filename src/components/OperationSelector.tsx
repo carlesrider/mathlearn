@@ -26,7 +26,7 @@ export default function OperationSelector({ selected, onToggle }: Props) {
             key={op}
             onClick={() => onToggle(op)}
             className={`card flex flex-col items-center gap-2 px-4 py-4 text-center text-lg font-bold transition hover:-translate-y-0.5 hover:shadow-xl ${
-              active ? 'border-2 border-skySplash bg-skySplash/20' : ''
+              active ? 'ring-2 border-skySplash bg-skySplash/20' : ''
             }`}
           >
             <span className="text-3xl">{icons[op]}</span>

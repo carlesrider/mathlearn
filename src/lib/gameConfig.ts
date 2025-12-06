@@ -74,24 +74,24 @@ const gradeConfig: Record<Grade, GradeRules> = {
     operations: ['add', 'sub', 'mul'],
     ranges: {
       add: {
-        'Fàcil': { min: 0, max: 50 },
-        Mitjà: { min: 10, max: 100 },
-        Difícil: { min: 30, max: 200 }
+        'Fàcil': { min: 1, max: 20 },
+        Mitjà: { min: 10, max: 50 },
+        Difícil: { min: 30, max: 100 }
       },
       sub: {
-        'Fàcil': { min: 0, max: 50 },
-        Mitjà: { min: 10, max: 100 },
-        Difícil: { min: 30, max: 200 }
+        'Fàcil': { min: 0, max: 20 },
+        Mitjà: { min: 10, max: 50 },
+        Difícil: { min: 30, max: 100 }
       },
       mul: {
-        'Fàcil': { min: 0, max: 10 },
-        Mitjà: { min: 0, max: 12 },
-        Difícil: { min: 2, max: 15 }
+        'Fàcil': { min: 1, max: 7 },
+        Mitjà: { min: 1, max: 10 },
+        Difícil: { min: 1, max: 11 }
       },
       div: {
         'Fàcil': { min: 1, max: 10 },
-        Mitjà: { min: 1, max: 12 },
-        Difícil: { min: 1, max: 12 }
+        Mitjà: { min: 1, max: 10 },
+        Difícil: { min: 1, max: 10 }
       }
     },
     recommendedModes: {
