@@ -1,5 +1,5 @@
-import { texts } from '@/src/constants/texts';
-import GradientBubble from '@/src/components/GradientBubble';
+import { texts } from '@/constants/texts';
+import GradientBubble from '@/components/GradientBubble';
 
 export default function HowItWorksPage() {
   return (

@@ -1,5 +1,5 @@
 import { randomUUID } from 'crypto';
-import { Difficulty, GameMode, Grade, Operation, Question } from '@/src/types/game';
+import { Difficulty, GameMode, Grade, Operation, Question } from '@/types/game';
 
 type BuildConfig = {
   operation: Operation;

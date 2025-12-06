@@ -14,7 +14,7 @@ Aplicació web perquè els infants de primària practiquin matemàtiques amb joc
 npm install
 npm run dev   # entorn de desenvolupament
 npm run build # build de producció
-npm start     # arrenca el servidor de producció
+npm start     # arrenca el servidor de producció (cal haver fet el build)
 npm run lint  # comprova l'estil
 ```
 

@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { texts } from '@/src/constants/texts';
+import { texts } from '@/constants/texts';
 import { usePathname } from 'next/navigation';
 
 export default function NavBar() {

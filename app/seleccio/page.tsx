@@ -1,15 +1,15 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import GradeSelector from '@/src/components/GradeSelector';
-import OperationSelector from '@/src/components/OperationSelector';
-import DifficultySelector from '@/src/components/DifficultySelector';
-import GameModeCard from '@/src/components/GameModeCard';
-import { texts } from '@/src/constants/texts';
-import { getAllowedGameModes, describeRange } from '@/src/lib/gameConfig';
-import { useGameStore } from '@/src/context/GameContext';
-import { GameMode } from '@/src/types/game';
-import GradientBubble from '@/src/components/GradientBubble';
+import GradeSelector from '@/components/GradeSelector';
+import OperationSelector from '@/components/OperationSelector';
+import DifficultySelector from '@/components/DifficultySelector';
+import GameModeCard from '@/components/GameModeCard';
+import { texts } from '@/constants/texts';
+import { getAllowedGameModes, describeRange } from '@/lib/gameConfig';
+import { useGameStore } from '@/context/GameContext';
+import { GameMode } from '@/types/game';
+import GradientBubble from '@/components/GradientBubble';
 
 export default function SelectionPage() {
   const router = useRouter();

@@ -1,7 +1,7 @@
 'use client';
 
-import { texts } from '@/src/constants/texts';
-import { Operation } from '@/src/types/game';
+import { texts } from '@/constants/texts';
+import { Operation } from '@/types/game';
 
 interface Props {
   selected: Operation[];

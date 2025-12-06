@@ -1,5 +1,5 @@
-import { Difficulty, GameMode, Grade, Operation, Question } from '@/src/types/game';
-import { buildQuestion } from '@/src/lib/questionGenerator';
+import { Difficulty, GameMode, Grade, Operation, Question } from '@/types/game';
+import { buildQuestion } from '@/lib/questionGenerator';
 
 type Range = { min: number; max: number };
 

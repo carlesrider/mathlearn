@@ -1,7 +1,7 @@
 'use client';
 
-import { texts } from '@/src/constants/texts';
-import { Difficulty } from '@/src/types/game';
+import { texts } from '@/constants/texts';
+import { Difficulty } from '@/types/game';
 
 interface Props {
   value: Difficulty | null;

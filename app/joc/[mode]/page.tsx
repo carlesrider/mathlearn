@@ -2,10 +2,10 @@
 
 import { useEffect, useState } from 'react';
 import { notFound, useParams, useRouter } from 'next/navigation';
-import Timer from '@/src/components/Timer';
-import { texts } from '@/src/constants/texts';
-import { useGameStore } from '@/src/context/GameContext';
-import { GameMode, Question } from '@/src/types/game';
+import Timer from '@/components/Timer';
+import { texts } from '@/constants/texts';
+import { useGameStore } from '@/context/GameContext';
+import { GameMode, Question } from '@/types/game';
 
 function FeedbackBadge({ correct }: { correct: boolean }) {
   return (

@@ -1,7 +1,7 @@
 import './globals.css';
 import { ReactNode } from 'react';
-import { GameProvider } from '@/src/context/GameContext';
-import NavBar from '@/src/components/NavBar';
+import { GameProvider } from '@/context/GameContext';
+import NavBar from '@/components/NavBar';
 
 export const metadata = {
   title: 'Mates per a petits',

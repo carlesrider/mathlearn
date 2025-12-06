@@ -1,7 +1,7 @@
 'use client';
 
-import { GameMode } from '@/src/types/game';
-import { texts } from '@/src/constants/texts';
+import { GameMode } from '@/types/game';
+import { texts } from '@/constants/texts';
 
 const descriptions: Record<GameMode, string> = {
   input: 'Escriu el resultat a una casella i rep feedback immediat.',

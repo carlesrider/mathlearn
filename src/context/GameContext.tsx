@@ -2,8 +2,8 @@
 
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { Difficulty, GameMode, Grade, Operation, Question, SessionState } from '@/src/types/game';
-import { generateQuestion } from '@/src/lib/gameConfig';
+import { Difficulty, GameMode, Grade, Operation, Question, SessionState } from '@/types/game';
+import { generateQuestion } from '@/lib/gameConfig';
 
 interface GameStore {
   profileName: string;

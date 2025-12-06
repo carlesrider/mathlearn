@@ -1,9 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import { texts } from '@/src/constants/texts';
-import { useGameStore } from '@/src/context/GameContext';
-import GradientBubble from '@/src/components/GradientBubble';
+import { texts } from '@/constants/texts';
+import { useGameStore } from '@/context/GameContext';
+import GradientBubble from '@/components/GradientBubble';
 
 export default function HomePage() {
   const { profileName, setProfileName } = useGameStore();
