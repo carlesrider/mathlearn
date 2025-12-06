@@ -210,7 +210,8 @@ export function generateQuestion(
 ): Question {
   const rules = gradeConfig[grade];
   const usableOperations = operations.filter((op) => rules.operations.includes(op));
-  const chosenOperation = usableOperations[Math.floor(Math.random() * usableOperations.length)];
+  const pool = usableOperations.length > 0 ? usableOperations : rules.operations;
+  const chosenOperation = pool[Math.floor(Math.random() * pool.length)];
   const range = rules.ranges[chosenOperation][difficulty];
   return buildQuestion({
     mode,
